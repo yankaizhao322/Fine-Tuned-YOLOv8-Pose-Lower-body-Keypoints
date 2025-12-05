@@ -89,7 +89,8 @@ Optimizer: AdamW
 
 # 4. CVAT user manual
 1. Create a Task
-   <img width="600" height="400" alt="屏幕截图 2025-12-04 215929" src="https://github.com/user-attachments/assets/6313f5fb-f633-44ac-9438-4681e0c7ca3f" />
+<img width="600" height="400" alt="屏幕截图 2025-12-04 215929" src="https://github.com/user-attachments/assets/6313f5fb-f633-44ac-9438-4681e0c7ca3f" />
+
 2. Name the Task and Create an skeleton
 <img width="400" height="400" alt="屏幕截图 2025-12-04 220021" src="https://github.com/user-attachments/assets/d3756470-c824-420d-aaf3-a1343abb6471" />
 
