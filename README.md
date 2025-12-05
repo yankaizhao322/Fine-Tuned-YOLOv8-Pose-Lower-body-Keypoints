@@ -10,7 +10,7 @@ The model was trained on manually annotated lower-body data using **CVAT**, focu
 
 ---
 
-## Project Overview
+## 1. Project Overview
 
 The model was fine-tuned using **videos containing only the lower body of walking subjects**.  
 Each frame was manually labeled in **CVAT** with 10 anatomical keypoints.  
@@ -18,7 +18,7 @@ Fine-tuning significantly improved YOLOv8's accuracy for lower-body pose estimat
 
 ---
 
-## Installation
+## 2. Installation
 
 ```bash
 # 1. Clone this repository
@@ -42,10 +42,10 @@ pip install ultralytics opencv-python
 ├── README.md                        # This file
 └── frame_extraction_from_video.py                 # Video Frame Extraction(30HZ)
 ```
-# Run Inference on a Video
+## 3. Run Inference on a Video
 You can run YOLO directly from command line or Python
 
-## Option1: Python script
+### Option1: Python script
 ```python
 from ultralytics import YOLO
 
@@ -62,7 +62,7 @@ results = model.predict(
 print("Inference complete! Check the 'runs/pose/predict' folder.")
 ```
 
-## Option2: Command line
+### Option2: Command line
 ```bash
 yolo pose predict model="best.pt" source="videos/example.mp4" conf=0.25 save=True
 ```
@@ -70,7 +70,7 @@ yolo pose predict model="best.pt" source="videos/example.mp4" conf=0.25 save=Tru
 After completion, results (including annotated videos) will be saved under:
 runs/pose/predict/
 
-# Model Information
+# 3. Model Information
 
 Base model: YOLOv8n-pose (yolov8n-pose.pt)
 
@@ -81,7 +81,7 @@ Training epochs: 200
 Image size: 640
 Optimizer: AdamW
 
-# Contact
+# 4. Contact
 If you have questions or want to collaborate:
 
 Author: Yankai Zhao
