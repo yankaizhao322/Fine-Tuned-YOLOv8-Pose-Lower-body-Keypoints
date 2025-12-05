@@ -76,3 +76,12 @@ Keypoints per instance: 10
 Training epochs: 200
 Image size: 640
 Optimizer: AdamW
+
+# Contact
+If you have questions or want to collaborate:
+
+Author: Yankai Zhao
+
+Email: yaz624@lghigh.edu
+
+Institution: Lehigh University, Department of Electrical and Computer Engineering
